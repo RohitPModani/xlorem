@@ -94,7 +94,7 @@ func main() {
 A simple CLI interface is also available.
 
 ```bash
-go run main.go -mode=paragraphs -count=2 -sentenceRange=3-5 -wordRange=8-12 -asHTML=true
+go run ./cmd/xlorem -mode=paragraphs -count=2 -sentenceRange=3-5 -wordRange=7-12 -asHTML=true
 ```
 
 ### Flags
